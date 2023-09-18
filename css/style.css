@@ -1,5 +1,5 @@
-head {
-  /*No livro está header, porem no HTML está head, verificar isso*/
+header {
+  /*Pesquisar qual a diferença de head e header*/
   position: relative;
 }
 
@@ -31,6 +31,7 @@ p {
   float: right;
   margin: 10px;
 }
+
 figure {
   background-color: #f2eded;
   border: 1px solid #ccc;
@@ -83,4 +84,26 @@ figcaption {
 .container {
   margin: 0 auto;
   width: 940px;
+}
+.busca, .menu-departamentos {
+  background-color: dcdcdc;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 10px;
+  width: 230px;
+}
+.busca h2, .busca form, .menu-departamentos h2{
+  margin: 10px;
+}
+.menu-departamentos li {
+  background-color: white;
+  margin-bottom: 1px;
+  padding: 5px 10px;
+}
+.menu-departamentos a {
+  color: #333333;
+  text-decoration: none;
+}
+.busca input {
+  vertical-align: middle;
 }
