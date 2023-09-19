@@ -2,7 +2,6 @@ header {
   /*Pesquisar qual a diferença de head e header*/
   position: relative;
 }
-
 body {
   color: #333333;
   margin-left: auto;
@@ -31,7 +30,6 @@ p {
   float: right;
   margin: 10px;
 }
-
 figure {
   background-color: #f2eded;
   border: 1px solid #ccc;
@@ -85,14 +83,21 @@ figcaption {
   margin: 0 auto;
   width: 940px;
 }
-.busca, .menu-departamentos {
-  background-color: dcdcdc;
+.busca,
+.menu-departamentos {
+  background-color: #dcdcdc;
   font-weight: bold;
   text-transform: uppercase;
   margin-right: 10px;
   width: 230px;
+  float: left;
 }
-.busca h2, .busca form, .menu-departamentos h2{
+.menu-departamentos {
+  clear: left;
+}
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
   margin: 10px;
 }
 .menu-departamentos li {
@@ -106,4 +111,14 @@ figcaption {
 }
 .busca input {
   vertical-align: middle;
+}
+.busca input[type="search"] {
+  width: 170px;
+}
+.destaque {
+  margin-top: 10px;
+}
+.menu-departamentos {
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
